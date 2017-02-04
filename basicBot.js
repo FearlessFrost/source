@@ -248,15 +248,15 @@
         retrieveSettings: retrieveSettings,
         retrieveFromStorage: retrieveFromStorage,
         settings: {
-            botName: "basicBot",
+            botName: "NobleBot",
             language: "english",
             chatLink: "https://rawgit.com/basicBot/source/master/lang/en.json",
             scriptLink: "https://rawgit.com/basicBot/source/master/basicBot.js",
             roomLock: false, // Requires an extension to re-load the script
-            startupCap: 1, // 1-200
+            startupCap: 50, // 1-200
             startupVolume: 0, // 0-100
-            startupEmoji: false, // true or false
-            autowoot: true,
+            startupEmoji: true, // true or false
+            autowoot: false,
             autoskip: false,
             smartSkip: true,
             cmdDeletion: true,
@@ -270,8 +270,8 @@
             maximumLocktime: 10,
             cycleGuard: true,
             maximumCycletime: 10,
-            voteSkip: false,
-            voteSkipLimit: 10,
+            voteSkip: true,
+            voteSkipLimit: 8,
             historySkip: false,
             timeGuard: true,
             maximumSongLength: 10,
@@ -303,7 +303,7 @@
             themeLink: null,
             fbLink: null,
             youtubeLink: null,
-            website: null,
+            website: "noblebending.com",
             intervalMessages: [],
             messageInterval: 5,
             songstats: true,
